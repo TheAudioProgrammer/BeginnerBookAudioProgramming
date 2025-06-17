@@ -28,6 +28,14 @@ const juce::ParameterID gainParamID { "gain", 1 };
 
 This line was first added on page 167 and it reappears on page 174. You're not supposed to delete this line. It is a mistake that this line is not included in the code on page 170.
 
+## Chapter 18, page 413
+
+Item 4 in the numbered list says:
+
+> If `targetDelay` is the same as `delaySamples`, the **Delay Time** parameter did not change since last time and nothing needs to happen.
+
+The variable name should be `delayInSamples`, not `delaySamples`. (It is correct in the actual source code and elsewhere in the book.)
+
 ## Xcode error: A build only device cannot be used to run this target
 
 You may get the following error message from Xcode:
